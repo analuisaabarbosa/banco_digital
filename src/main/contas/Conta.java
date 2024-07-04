@@ -2,7 +2,6 @@ package main.contas;
 
 import java.util.Locale;
 import java.util.Scanner;
-
 import main.clientes.Cliente;
 
 public class Conta {
