@@ -5,6 +5,7 @@ import main.contas.ContaCorrente;
 import main.contas.ContaPoupanca;
 
 public class Main {
+    
     public static void main(String[] args) {
         Cliente analu = new Cliente(null);
         analu.setNome("Ana Luisa");
@@ -19,5 +20,6 @@ public class Main {
 
         contaPoupanca.depositar();
         contaPoupanca.imprimirExtrato();
+        
     }
 }
